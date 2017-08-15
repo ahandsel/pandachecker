@@ -4,7 +4,7 @@ Will give an error message if the website is down.
 """
 import subprocess
 
-addressListA = ['baseness.com',
+addressListA = ['basenese.com',
            'npr.org',
            'ucsc.edu',
            'google.com',
@@ -12,7 +12,8 @@ addressListA = ['baseness.com',
            'myeconlab.com',
            'instagram.com',
            'wikipedia.com',
-           'nytimes.com', 'netflix.com'
+           'nytimes.com', 
+           'netflix.com'
            ];
 
 # subprocess.run(args, *, stdin=None, input=None, stdout=None, stderr=None, shell=False, cwd=None, timeout=None, check=False, encoding=None, errors=None)
@@ -21,6 +22,4 @@ addressListA = ['baseness.com',
 for anAddress in addressListA:
     subprocess.run(["ping", "-c", "1", anAddress ], check=True)
 
-subprocess.check_output(["echo", "Hello World!"])
-
-print('please work')
+subprocess.run(["echo", "Hello World!", "1"], check=True)
