@@ -32,4 +32,4 @@ for anAddress in addressListB:
 
 print()
 print()
-print('IT WORKED!!!')
+print('Finished Checking URLs')
