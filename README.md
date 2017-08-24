@@ -16,3 +16,20 @@ nytimes.com
 
 Will check the websites status one time.
 If website is down, an error message would appear.
+
+## Basic Instructions
+
+### 1. download
+
+    git clone https://github.com/ahandsel/pandachecker.git
+
+### 2. deps
+
+    cd pandachecker
+    pip3 install -r requirements.txt
+    
+### 3. run
+
+    python3 pandachecker.py
+    
+If you want to use this as a monitoring tool, `cron`
