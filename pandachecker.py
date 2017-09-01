@@ -6,7 +6,7 @@ Will give an error message if the website is down.
 import URLs from weblist.txt => addressListB
 # => each line should become its own element via splitlines()
 
-# check status of websites in the addressListB
+check status of websites in the addressListB
 # if error => Text my number via Twilio
 # if no error => Do nothing
 """
@@ -25,10 +25,6 @@ try:
         subprocess.run(["ping", "-c", "1", anAddress], check=True)
 except subprocess.CalledProcessError:
     send_sms.error_msg()
-"""
-for anAddress in addressListB:
-    subprocess.run(["ping", "-c", "1", anAddress], check=True)
-"""
 
 print()
 print()
