@@ -31,13 +31,13 @@ for anURL in addressList:
         BadLinks += ", "
 
 print()
-print("- - - - - - -")
+print("* * * * * * * * * ")
 print('Finished Checking URLs')
 if len(BadLinks) > 0:
     print("The following links are down: " + BadLinks)
-print("- - - - - - - - - - - - - -")
+print("* * * * * * * * * * * * * * * * * * * * * * * * ")
 
-#  - - - - - - - - - - - - - - - -
+#  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 """
 Example Results:
 - Since Netflix.com & DeAnza.edu prevents pings, they will be considered "down" & a text msg should be sent
