@@ -1,4 +1,5 @@
 basanese.com
+netflix.com
 npr.org
 ucsc.edu
 google.com
@@ -7,4 +8,4 @@ myeconlab.com
 instagram.com
 wikipedia.com
 nytimes.com
-netflix.com
+deanza.edu
